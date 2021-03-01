@@ -2,11 +2,17 @@
 <head>
 <meta charset="UTF-8">
 <title>test</title>
+<link rel="shortcut icon" href="./favicon.ico">
 </head>
-
+<header>
+    <strong>ソートなぞなぞ鬼特訓</strong>
+</header>
 <body>
-test
-<script>
-console.log('GitHub Pages Sample');
-</script>
+    <div id="question">なぞなぞを生成してください(初回はデータセットのロードをします)</div>
+    <input type="button" id="set_nazonazo" value="ソートなぞなぞ生成">
+    <table>
+        <tbody id="my_answers"> </tbody>
+    </table>
+    <input type="button" id="check_answer" value="答え合わせ"  hidden="hidden">
+<script src="index.js"></script>
 </body>
